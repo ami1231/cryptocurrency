@@ -49,24 +49,7 @@
             <artifactId>commons-lang3</artifactId>
             <version>${apache.lang.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.uuid/java-uuid-generator -->
-        <dependency>
-            <groupId>com.fasterxml.uuid</groupId>
-            <artifactId>java-uuid-generator</artifactId>
-            <version>4.0.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.modelmapper.extensions/modelmapper-spring -->
-        <dependency>
-            <groupId>org.modelmapper.extensions</groupId>
-            <artifactId>modelmapper-spring</artifactId>
-            <version>2.3.8</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/eu.bitwalker/UserAgentUtils -->
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -78,11 +61,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.ansj</groupId>
-            <artifactId>ansj_seg</artifactId>
-            <version>5.0.4</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
